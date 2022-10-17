@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[tbl_custreg] (
+    [Name]       VARCHAR (50) NOT NULL,
+    [PhoneNum]   VARCHAR (50) NOT NULL,
+    [AccountNum] VARCHAR (50) NOT NULL,
+    [DOB]        VARCHAR (50) NOT NULL,
+    [PanNum]     VARCHAR (50) NOT NULL,
+    [Gender]     VARCHAR (50) NOT NULL,
+    [SelectAcc]  VARCHAR (50) NOT NULL,
+    [MPIN]       VARCHAR (50) NOT NULL,
+    [UserId]     VARCHAR (50) NOT NULL,
+    [Password]   VARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_tbl_custreg] PRIMARY KEY CLUSTERED ([UserId] ASC),
+    UNIQUE NONCLUSTERED ([AccountNum] ASC)
+);

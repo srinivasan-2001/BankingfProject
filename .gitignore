@@ -1,0 +1,9 @@
+# ignore ALL .log files
+# *.log
+"entering sheet".sln
+"entering sheet".csproj.user
+
+# ignore ALL files in ANY directory named temp
+bin/
+obj/
+.vs/
